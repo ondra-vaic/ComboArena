@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7109ba8a3a049d6478ac49f75489ea66, type: 3}
+  m_Name: Shout
+  m_EditorClassIdentifier: 
+  toEndTime: 2.8
+  toCancelTime: 1.85
+  customEnqueuing: 0
+  toEnqueueTime: 0
+  enqueueTimeToEnd: 1.8
+  endStateType: 0
+  movementData:
+    moveType: 2
+    maxDistanceToTravel: 5
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.17
+        value: 0
+        inSlope: 6.8510604
+        outSlope: 6.8510604
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.030954799
+      - serializedVersion: 3
+        time: 0.5737015
+        value: 0.92797863
+        inSlope: 0
+        outSlope: -3.4502852
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.14777496
+      - serializedVersion: 3
+        time: 0.69784427
+        value: 0.45781326
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    speed: 1.7857143
+    affectsRotation: 1
+    rotationSpeed: 0
+  effectorsPrototypes:
+  - {fileID: 11400000, guid: d88809ec254c26e49ac9fda86d232785, type: 2}
+  priority: 1
+  actionUIName: Fireball
+  actionUIDescription: The hero cast a fireball.
+  actionUIColor: {r: 0.71699995, g: 0.10469469, b: 0.060278762, a: 1}
+  showInUI: 1
+  canEndWithLocation: 0
+  hasEndTime: 1
+  hasCancelTime: 1
+  actionName: 
+  castId: 5d769a75437ba2346a2cd64a5dfae2b2

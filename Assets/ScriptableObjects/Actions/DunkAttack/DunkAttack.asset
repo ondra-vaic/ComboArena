@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7109ba8a3a049d6478ac49f75489ea66, type: 3}
+  m_Name: DunkAttack
+  m_EditorClassIdentifier: 
+  toEndTime: 3.6
+  toCancelTime: 1.8
+  customEnqueuing: 0
+  toEnqueueTime: 0
+  enqueueTimeToEnd: 2.6
+  endStateType: 0
+  movementData:
+    moveType: 1
+    maxDistanceToTravel: 7
+    animationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.45
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    speed: 1.9444445
+    affectsRotation: 1
+    rotationSpeed: 100
+  effectorsPrototypes:
+  - {fileID: 11400000, guid: 3666ff758627abf4eb65a42e2a0cac21, type: 2}
+  priority: 1
+  actionUIName: Dunk
+  actionUIDescription: The hero dunks with his axe.
+  actionUIColor: {r: 0.9254902, g: 0.3647059, b: 0.08627451, a: 1}
+  showInUI: 1
+  canEndWithLocation: 0
+  hasEndTime: 1
+  hasCancelTime: 1
+  actionName: 
+  castId: 8bd82cc3b7b7d9a4a91eea7503a39046
